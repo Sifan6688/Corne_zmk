@@ -2,21 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: whoop-t
-      url-base: https://github.com/whoop-t
+    - name: whoop-t #new entry
+      url-base: https://github.com/whoop-t #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-adventure-time
-      remote: whoop-t
-      revision: main
-    - name: nice-futurama-sus
-      remote: whoop-t
-      revision: main
-    - name: nice-fry-button-miss
-      remote: whoop-t
-      revision: main
+    - name: nice-futurama-sus #new entry
+      remote: whoop-t #new entry
+      revision: main #new entry
   self:
     path: config
