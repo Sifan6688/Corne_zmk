@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: whoop-t #new entry
+      url-base: https://github.com/whoop-t #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-futurama-sus #new entry
+      remote: whoop-t #new entry
+      revision: main #new entry
   self:
     path: config
